@@ -44,5 +44,10 @@ A full-featured Telegram music bot that streams music into group voice chats usi
    ```plaintext
    worker: python main.py
    ```
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+</h3>
+ 
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/kidoocoder/jiotest"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 Enjoy your music bot!
