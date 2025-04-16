@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Install required packages
+echo "Installing dependencies..."
+pip install -r requirements.txt
+
+# Ensure ffmpeg is installed
+if ! command -v ffmpeg &> /dev/null
+then
+    echo "ffmpeg could not be found. Installing..."
+    sudo apt update
+    sudo apt install ffmpeg -y
+else
+    echo "ffmpeg is already installed."
+fi
+
+echo "Setup completed successfully!"

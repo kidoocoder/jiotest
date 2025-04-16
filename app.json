@@ -1,0 +1,37 @@
+{
+      "name": "Telegram Music Bot",
+      "description": "A music bot for Telegram that streams music into group voice chats.",
+      "repository": "https://github.com/syntaxworldcodes/telegram_music_bot",
+      "keywords": ["telegram", "bot", "music", "pyrogram"],
+      "env": {
+        "API_ID": {
+          "description": "Your Telegram API ID",
+          "required": true
+        },
+        "API_HASH": {
+          "description": "Your Telegram API Hash",
+          "required": true
+        },
+        "BOT_TOKEN": {
+          "description": "Your Telegram Bot Token",
+          "required": true
+        },
+        "SPOTIFY_CLIENT_ID": {
+          "description": "Your Spotify Client ID",
+          "required": true
+        },
+        "SPOTIFY_CLIENT_SECRET": {
+          "description": "Your Spotify Client Secret",
+          "required": true
+        },
+        "MONGO_URI": {
+          "description": "Your MongoDB connection string",
+          "required": true
+        }
+      },
+      "buildpacks": [
+        {
+          "url": "heroku/python"
+        }
+      ]
+    }

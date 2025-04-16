@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Start the Python bot
+echo "Starting Telegram Music Bot..."
+python3 main.py
